@@ -1,0 +1,1 @@
+//Declare window.electron
