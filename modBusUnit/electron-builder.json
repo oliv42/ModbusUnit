@@ -1,0 +1,17 @@
+{
+  "appId": "ModBusUnit",
+  "productName": "ModBus Unit",
+  "copyright": "Copyright © 2025 ModBus Unit",
+  "files": ["dist-electron/**/*", "dist-react/**/*"],
+  "icon": "./desktopIcon.png",
+  "mac": {
+    "target": ["dmg"]
+  },
+  "win": {
+    "target": ["msi"]
+  },
+  "linux": {
+    "target": ["AppImage"],
+    "category": "Utility"
+  }
+}
