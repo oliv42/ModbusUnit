@@ -5,6 +5,9 @@ import reactLogo from "./assets/react.svg";
 function App() {
   const [count, setCount] = useState(0);
 
+  // @ts-expect-error pas de type pour electron pour le moment
+  window.electron.getStaticData();
+
   return (
     <>
       <div>

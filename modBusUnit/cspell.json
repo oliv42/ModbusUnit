@@ -1,4 +1,11 @@
 {
   "language": "en",
-  "words": ["Electron", "modbusunit", "Olivier", "devtools"]
+  "words": [
+    "Electron",
+    "modbusunit",
+    "Olivier",
+    "devtools",
+    "statfsSync",
+    "bfree"
+  ]
 }
