@@ -6,7 +6,6 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    // @ts-expect-error pas de type pour electron pour le moment
     window.electron.subscribeStatistics((stats) => {
       console.log(stats);
     });
